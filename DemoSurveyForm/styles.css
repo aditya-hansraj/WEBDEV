@@ -1,0 +1,141 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 2px solid black;
+    background-color: rgba(43, 0, 255, 0.561);
+    border-radius: 0.8em;
+    width: auto;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: rgba(10, 112, 112, 0.757);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    width: 36em;
+    margin: 0.2em 6em;
+    font-size: 1rem;
+}
+#survey-form{
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 2em 0em;
+}
+.form-control{
+    align-self: center;
+    border-radius: 0.5 em;
+    width:36em;
+    margin: 0.2em 6em;
+    height: 3em;
+    border-radius: 0.5em;
+    padding: 2px 10px;
+}
+#submit{
+    align-self: center;
+   /*  width: 36em;
+    height: 4em; */
+    background-color: green;
+    display: block;
+    width: 36em;
+    margin: 1em 0em;
+    padding: 0.75rem;
+    color: aliceblue;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.surveyform{
+    width: 36em;
+    margin: 0.2em 6em;
+}
+.text-center{
+    text-align: center;
+}
+.heading{
+    color: white;
+}
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+#description{
+    font-style: italic;
+    font-size: 1.5rem;
+    opacity: 0.88;
+}
+/* #survey-form{
+    border: 2px solid;
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.1rem;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+} */
+.opt{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: aliceblue;
+}
+.h{
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+  font-size: 1.24rem;
+    margin-bottom: 0.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    color: aliceblue;
+}
+#survey-form .h{
+    position: relative;
+    left: 2.7em;
+}
+#survey-form label{
+    position: relative;
+    left: 2.7em;
+}
+#survey-form label input[type="radio"], #survey-form label input[type="checkbox"]{
+    position: inherit;
+    top: 0.3em;
+    left: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+.inr span{
+    font-size: 1.4em;
+    padding-left: 0.8em;
+    color: aliceblue;
+}
+.formgroup label .co{
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 0.7em;
+    color: aliceblue;
+}
